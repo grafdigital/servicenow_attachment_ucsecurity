@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2022-09-27 20:30:06">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>User Criteria Attachment Security</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>4908e9802f1211107f79877cf699b6e9</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>grafdigital</sys_created_by>
+<sys_created_on>2022-09-27 20:30:05</sys_created_on>
+<sys_id>0531350c2f1211107f79877cf699b649</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>grafdigital</sys_updated_by>
+<sys_updated_on>2022-09-27 20:30:05</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_dfdfa9882f1211107f79877cf699b6da</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>As this is an automated process, only system/admin should be able to create new arbitrary security records.</description><name>u_attachment_security_criteria</name><operation display_value="create">create</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>grafdigital</sys_created_by><sys_created_on>2022-09-27 20:24:14</sys_created_on><sys_id>dfdfa9882f1211107f79877cf699b6da</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_attachment_security_criteria</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_dfdfa9882f1211107f79877cf699b6da</sys_update_name><sys_updated_by>grafdigital</sys_updated_by><sys_updated_on>2022-09-27 20:24:14</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<remote_update_set display_value="User Criteria Attachment Security">0531350c2f1211107f79877cf699b649</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>grafdigital</sys_created_by>
+<sys_created_on>2022-09-27 20:30:06</sys_created_on>
+<sys_id>0131350c2f1211107f79877cf699b64c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>183809f1d1f0000001</sys_recorded_at>
+<sys_updated_by>grafdigital</sys_updated_by>
+<sys_updated_on>2022-09-27 20:30:06</sys_updated_on>
+<table>u_attachment_security_criteria</table>
+<target_name>u_attachment_security_criteria</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>dbdfa9888a12111061661af2cc2266dc</update_guid>
+<update_guid_history>dbdfa9888a12111061661af2cc2266dc:1549024091</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_06bead482f1211107f79877cf699b605</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Allows users with read access to task record to see its attachment security configurations.&lt;/description&gt;&lt;name&gt;u_attachment_security_criteria&lt;/name&gt;&lt;operation display_value="read"&gt;read&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[var grRecord = new GlideRecord(current.u_attachment.table_name);
+answer = grRecord.get(current.u_attachment.table_sys_id) ? grRecord.canRead() : false;]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-27 20:22:24&lt;/sys_created_on&gt;&lt;sys_id&gt;06bead482f1211107f79877cf699b605&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_attachment_security_criteria&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_06bead482f1211107f79877cf699b605&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-27 20:22:24&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="User Criteria Attachment Security">0531350c2f1211107f79877cf699b649</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>grafdigital</sys_created_by>
+<sys_created_on>2022-09-27 20:30:05</sys_created_on>
+<sys_id>0531350c2f1211107f79877cf699b64b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>183809d6eee0000001</sys_recorded_at>
+<sys_updated_by>grafdigital</sys_updated_by>
+<sys_updated_on>2022-09-27 20:30:05</sys_updated_on>
+<table>u_attachment_security_criteria</table>
+<target_name>u_attachment_security_criteria</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>6c7f6d48f7121110ef04393b5152b3a6</update_guid>
+<update_guid_history>6c7f6d48f7121110ef04393b5152b3a6:-41578872</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_b22e085a2f75111061395fd62799b63a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access/><actions_access>true</actions_access><alter_access>true</alter_access><caller_access/><client_scripts_access>true</client_scripts_access><configuration_access>false</configuration_access><create_access>true</create_access><create_access_controls>false</create_access_controls><delete_access>false</delete_access><extension_model/><is_extendable>false</is_extendable><label>Attachment Security Criterias</label><live_feed_enabled>false</live_feed_enabled><name>u_attachment_security_criteria</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_code/><sys_class_name>sys_db_object</sys_class_name><sys_class_path/><sys_created_by>grafdigital</sys_created_by><sys_created_on>2022-09-09 16:32:20</sys_created_on><sys_id>b22e085a2f75111061395fd62799b63a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Attachment Security Criterias</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_b22e085a2f75111061395fd62799b63a</sys_update_name><sys_updated_by>grafdigital</sys_updated_by><sys_updated_on>2022-09-09 16:32:20</sys_updated_on><update_access>true</update_access><user_role/><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<remote_update_set display_value="User Criteria Attachment Security">0531350c2f1211107f79877cf699b649</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>grafdigital</sys_created_by>
+<sys_created_on>2022-09-27 20:30:05</sys_created_on>
+<sys_id>0931350c2f1211107f79877cf699b649</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1832318567a0000001</sys_recorded_at>
+<sys_updated_by>grafdigital</sys_updated_by>
+<sys_updated_on>2022-09-27 20:30:05</sys_updated_on>
+<table>u_attachment_security_criteria</table>
+<target_name>Attachment Security Criterias</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>cf2ec89a117511108bf189d65f9bd751</update_guid>
+<update_guid_history>cf2ec89a117511108bf189d65f9bd751:327990029</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_m2m_110e089a2f75111061395fd62799b6cb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_m2m"><sys_m2m action="INSERT_OR_UPDATE"><from_table>sys_attachment</from_table><m2m_from_field>u_attachment</m2m_from_field><m2m_from_label>User Criteria Records</m2m_from_label><m2m_table>u_attachment_security_criteria</m2m_table><m2m_to_field>u_user_criteria</m2m_to_field><m2m_to_label>Attachments</m2m_to_label><sys_class_name>sys_m2m</sys_class_name><sys_created_by>grafdigital</sys_created_by><sys_created_on>2022-09-09 16:32:20</sys_created_on><sys_id>110e089a2f75111061395fd62799b6cb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_attachment_security_criteria</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_m2m_110e089a2f75111061395fd62799b6cb</sys_update_name><sys_updated_by>grafdigital</sys_updated_by><sys_updated_on>2022-09-09 16:32:20</sys_updated_on><to_table>user_criteria</to_table></sys_m2m></record_update>]]></payload>
+<remote_update_set display_value="User Criteria Attachment Security">0531350c2f1211107f79877cf699b649</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>grafdigital</sys_created_by>
+<sys_created_on>2022-09-27 20:30:05</sys_created_on>
+<sys_id>0931350c2f1211107f79877cf699b64a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18323185b710000001</sys_recorded_at>
+<sys_updated_by>grafdigital</sys_updated_by>
+<sys_updated_on>2022-09-27 20:30:05</sys_updated_on>
+<table/>
+<target_name>u_attachment_security_criteria</target_name>
+<type>Many to Many Definition</type>
+<update_domain>global</update_domain>
+<update_guid>9b2ec89ada751110b00935b1c5865687</update_guid>
+<update_guid_history>9b2ec89ada751110b00935b1c5865687:-584277404</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_554e4c9a2f75111061395fd62799b6b3</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script"&gt;&lt;sys_script action="INSERT_OR_UPDATE"&gt;&lt;abort_action&gt;false&lt;/abort_action&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;action_delete&gt;false&lt;/action_delete&gt;&lt;action_insert&gt;true&lt;/action_insert&gt;&lt;action_query&gt;false&lt;/action_query&gt;&lt;action_update&gt;false&lt;/action_update&gt;&lt;active&gt;true&lt;/active&gt;&lt;add_message&gt;false&lt;/add_message&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;change_fields&gt;false&lt;/change_fields&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;collection&gt;sys_attachment&lt;/collection&gt;&lt;condition/&gt;&lt;description/&gt;&lt;execute_function&gt;false&lt;/execute_function&gt;&lt;filter_condition/&gt;&lt;is_rest&gt;false&lt;/is_rest&gt;&lt;message/&gt;&lt;name&gt;Create Attachment Security Record&lt;/name&gt;&lt;order&gt;100&lt;/order&gt;&lt;priority&gt;100&lt;/priority&gt;&lt;rest_method/&gt;&lt;rest_method_text/&gt;&lt;rest_service/&gt;&lt;rest_service_text/&gt;&lt;rest_variables/&gt;&lt;role_conditions/&gt;&lt;script&gt;&lt;![CDATA[(function executeRule(current, previous /*null when async*/) {
+	var configs = gs.getProperty('attachment.ucsecurity.tablesanddefaults').split('\n');
+	var config = configs.filter(function(i) { return i.startsWith(current.table_name + '|'); }).map(function(i) { return i.split('|'); })[0];
+	if(config) {
+		var gr = new GlideRecord('u_attachment_security_criteria');
+		gr.initialize();
+		gr.u_attachment = current.getUniqueValue();
+		gr.u_user_criteria = config[1];
+		gr.insert();
+	}
+})(current, previous);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-09 16:35:02&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;554e4c9a2f75111061395fd62799b6b3&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name&gt;Create Attachment Security Record&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_554e4c9a2f75111061395fd62799b6b3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-27 20:17:09&lt;/sys_updated_on&gt;&lt;template/&gt;&lt;when&gt;after&lt;/when&gt;&lt;/sys_script&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=554e4c9a2f75111061395fd62799b6b3"/&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="User Criteria Attachment Security">0531350c2f1211107f79877cf699b649</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>grafdigital</sys_created_by>
+<sys_created_on>2022-09-27 20:30:05</sys_created_on>
+<sys_id>4131350c2f1211107f79877cf699b64b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1838098a0fc0000001</sys_recorded_at>
+<sys_updated_by>grafdigital</sys_updated_by>
+<sys_updated_on>2022-09-27 20:30:05</sys_updated_on>
+<table>sys_attachment</table>
+<target_name>Create Attachment Security Record</target_name>
+<type>Business Rule</type>
+<update_domain>global</update_domain>
+<update_guid>eb3e6548d8121110ac64ff86dc0c08d8</update_guid>
+<update_guid_history>eb3e6548d8121110ac64ff86dc0c08d8:-1660124962,aace40da7b751110edf88d77afe17576:-1805413704</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_attachment_security_criteria_u_user_criteria</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_user_criteria" table="u_attachment_security_criteria"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>encode_utf8=false</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>User Criteria</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_user_criteria</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>u_attachment_security_criteria</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="user_criteria">user_criteria</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>grafdigital</sys_created_by><sys_created_on>2022-09-09 16:32:21</sys_created_on><sys_id>c32ec89a2f75111061395fd62799b653</sys_id><sys_mod_count>0</sys_mod_count><sys_name>User Criteria</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_attachment_security_criteria_u_user_criteria</sys_update_name><sys_updated_by>grafdigital</sys_updated_by><sys_updated_on>2022-09-09 16:32:21</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="User Criteria Attachment Security">0531350c2f1211107f79877cf699b649</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>grafdigital</sys_created_by>
+<sys_created_on>2022-09-27 20:30:05</sys_created_on>
+<sys_id>4531350c2f1211107f79877cf699b64a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>183231859d10000001</sys_recorded_at>
+<sys_updated_by>grafdigital</sys_updated_by>
+<sys_updated_on>2022-09-27 20:30:05</sys_updated_on>
+<table>u_attachment_security_criteria</table>
+<target_name>Attachment Security Criterias.User Criteria</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>5b2ec89a7e751110e639e92ff4ac2c5f</update_guid>
+<update_guid_history>5b2ec89a7e751110e639e92ff4ac2c5f:-1748290578</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_6bffe9482f1211107f79877cf699b638</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>As this is an automated process, only system/admin should be able to delete security records.</description><name>u_attachment_security_criteria</name><operation display_value="delete">delete</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>grafdigital</sys_created_by><sys_created_on>2022-09-27 20:24:48</sys_created_on><sys_id>6bffe9482f1211107f79877cf699b638</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_attachment_security_criteria</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_6bffe9482f1211107f79877cf699b638</sys_update_name><sys_updated_by>grafdigital</sys_updated_by><sys_updated_on>2022-09-27 20:24:48</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<remote_update_set display_value="User Criteria Attachment Security">0531350c2f1211107f79877cf699b649</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>grafdigital</sys_created_by>
+<sys_created_on>2022-09-27 20:30:05</sys_created_on>
+<sys_id>4d31350c2f1211107f79877cf699b64b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>183809fa18c0000001</sys_recorded_at>
+<sys_updated_by>grafdigital</sys_updated_by>
+<sys_updated_on>2022-09-27 20:30:05</sys_updated_on>
+<table>u_attachment_security_criteria</table>
+<target_name>u_attachment_security_criteria</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>afff61c847121110dd6b81d343a64332</update_guid>
+<update_guid_history>afff61c847121110dd6b81d343a64332:351382938</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_attachment_security_criteria_u_attachment</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_attachment" table="u_attachment_security_criteria"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes>encode_utf8=false</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Attachment</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_attachment</element><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>u_attachment_security_criteria</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="sys_attachment">sys_attachment</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>grafdigital</sys_created_by><sys_created_on>2022-09-09 16:32:21</sys_created_on><sys_id>5b2ec89a2f75111061395fd62799b660</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Attachment</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_attachment_security_criteria_u_attachment</sys_update_name><sys_updated_by>grafdigital</sys_updated_by><sys_updated_on>2022-09-09 16:32:21</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="User Criteria Attachment Security">0531350c2f1211107f79877cf699b649</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>grafdigital</sys_created_by>
+<sys_created_on>2022-09-27 20:30:05</sys_created_on>
+<sys_id>8131350c2f1211107f79877cf699b64a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18323185b210000001</sys_recorded_at>
+<sys_updated_by>grafdigital</sys_updated_by>
+<sys_updated_on>2022-09-27 20:30:05</sys_updated_on>
+<table>u_attachment_security_criteria</table>
+<target_name>Attachment Security Criterias.Attachment</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>172ec89a56751110117380ff33109685</update_guid>
+<update_guid_history>172ec89a56751110117380ff33109685:297909384</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_efffe9482f1211107f79877cf699b638</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>grafdigital</sys_created_by><sys_created_on>2022-09-27 20:24:48</sys_created_on><sys_id>efffe9482f1211107f79877cf699b638</sys_id><sys_mod_count>2</sys_mod_count><sys_name>u_attachment_security_criteria.admin</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_attachment_security_criteria">6bffe9482f1211107f79877cf699b638</sys_security_acl><sys_update_name>sys_security_acl_role_efffe9482f1211107f79877cf699b638</sys_update_name><sys_updated_by>grafdigital</sys_updated_by><sys_updated_on>2022-09-27 20:26:54</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<remote_update_set display_value="User Criteria Attachment Security">0531350c2f1211107f79877cf699b649</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>grafdigital</sys_created_by>
+<sys_created_on>2022-09-27 20:30:06</sys_created_on>
+<sys_id>8531350c2f1211107f79877cf699b64c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18380a18cfa0000001</sys_recorded_at>
+<sys_updated_by>grafdigital</sys_updated_by>
+<sys_updated_on>2022-09-27 20:30:06</sys_updated_on>
+<table>u_attachment_security_criteria</table>
+<target_name>u_attachment_security_criteria.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>5a7075c827121110b143f0b44f8b1633</update_guid>
+<update_guid_history>5a7075c827121110b143f0b44f8b1633:95123177,5b60f5c8c612111023d8ee35e9d7b332:-1739734848,e7ff61c8d4121110339997c0e3b91f30:554706281</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_219fa9482f1211107f79877cf699b6ab</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Allows users with write access to task record to see its attachment security configurations.&lt;/description&gt;&lt;name&gt;u_attachment_security_criteria&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[var grRecord = new GlideRecord(current.u_attachment.table_name);
+answer = grRecord.get(current.u_attachment.table_sys_id) ? grRecord.canWrite() : false;]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-27 20:23:01&lt;/sys_created_on&gt;&lt;sys_id&gt;219fa9482f1211107f79877cf699b6ab&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;u_attachment_security_criteria&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_219fa9482f1211107f79877cf699b6ab&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-27 20:23:01&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="User Criteria Attachment Security">0531350c2f1211107f79877cf699b649</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>grafdigital</sys_created_by>
+<sys_created_on>2022-09-27 20:30:05</sys_created_on>
+<sys_id>8931350c2f1211107f79877cf699b64b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>183809e00d30000001</sys_recorded_at>
+<sys_updated_by>grafdigital</sys_updated_by>
+<sys_updated_on>2022-09-27 20:30:05</sys_updated_on>
+<table>u_attachment_security_criteria</table>
+<target_name>u_attachment_security_criteria</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>2d9fa948e4121110f91e0148337280ac</update_guid>
+<update_guid_history>2d9fa948e4121110f91e0148337280ac:-1809377320</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_relationship_c101d85e2f75111061395fd62799b6eb</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_relationship"&gt;&lt;sys_relationship action="INSERT_OR_UPDATE"&gt;&lt;advanced&gt;false&lt;/advanced&gt;&lt;apply_to/&gt;&lt;basic_apply_to&gt;task&lt;/basic_apply_to&gt;&lt;basic_query_from&gt;u_attachment_security_criteria&lt;/basic_query_from&gt;&lt;insert_callback/&gt;&lt;name&gt;Attachment Security&lt;/name&gt;&lt;query_from/&gt;&lt;query_with&gt;&lt;![CDATA[(function refineQuery(current, parent) {
+
+	current.addQuery('u_attachment.table_sys_id', parent.sys_id);
+
+})(current, parent);]]&gt;&lt;/query_with&gt;&lt;reference_field/&gt;&lt;related_list/&gt;&lt;simple_reference&gt;false&lt;/simple_reference&gt;&lt;sys_class_name&gt;sys_relationship&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-09-09 16:46:14&lt;/sys_created_on&gt;&lt;sys_id&gt;c101d85e2f75111061395fd62799b6eb&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Attachment Security&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_relationship_c101d85e2f75111061395fd62799b6eb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-09 16:46:14&lt;/sys_updated_on&gt;&lt;/sys_relationship&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c101d85e2f75111061395fd62799b6eb"/&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="User Criteria Attachment Security">0531350c2f1211107f79877cf699b649</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>grafdigital</sys_created_by>
+<sys_created_on>2022-09-27 20:30:05</sys_created_on>
+<sys_id>8d31350c2f1211107f79877cf699b64a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18323250d7e0000001</sys_recorded_at>
+<sys_updated_by>grafdigital</sys_updated_by>
+<sys_updated_on>2022-09-27 20:30:05</sys_updated_on>
+<table/>
+<target_name>Attachment Security</target_name>
+<type>Relationship</type>
+<update_domain>global</update_domain>
+<update_guid>ea51985e37751110c15eaac4811c72c7</update_guid>
+<update_guid_history>ea51985e37751110c15eaac4811c72c7:-655308209</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_01ef6d482f1211107f79877cf699b6b0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>grafdigital</sys_created_by><sys_created_on>2022-09-27 20:24:28</sys_created_on><sys_id>01ef6d482f1211107f79877cf699b6b0</sys_id><sys_mod_count>2</sys_mod_count><sys_name>u_attachment_security_criteria.admin</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_attachment_security_criteria">dfdfa9882f1211107f79877cf699b6da</sys_security_acl><sys_update_name>sys_security_acl_role_01ef6d482f1211107f79877cf699b6b0</sys_update_name><sys_updated_by>grafdigital</sys_updated_by><sys_updated_on>2022-09-27 20:25:55</sys_updated_on><sys_user_role display_value="admin" name="admin">2831a114c611228501d4ea6c309d626d</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+<remote_update_set display_value="User Criteria Attachment Security">0531350c2f1211107f79877cf699b649</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>grafdigital</sys_created_by>
+<sys_created_on>2022-09-27 20:30:06</sys_created_on>
+<sys_id>c131350c2f1211107f79877cf699b64c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18380a0a5770000001</sys_recorded_at>
+<sys_updated_by>grafdigital</sys_updated_by>
+<sys_updated_on>2022-09-27 20:30:06</sys_updated_on>
+<table>u_attachment_security_criteria</table>
+<target_name>u_attachment_security_criteria.admin</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>333075c888121110e9e80981ed3054c3</update_guid>
+<update_guid_history>333075c888121110e9e80981ed3054c3:745851865,b430b1c8ac121110eecf62cf05abb647:-459161196,76efa9888112111091973c2bc61f81ef:745851865</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_0bcf23740a6a38d400c7e02590038464</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Allow read for records in sys_attachment, if the ACL script returns true.&lt;/description&gt;&lt;name&gt;sys_attachment&lt;/name&gt;&lt;operation display_value="read"&gt;read&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[var gr = new GlideRecord('u_attachment_security_criteria');
+if(gr.get('u_attachment', current.getUniqueValue())) {
+	answer = sn_uc.UserCriteriaLoader.userMatches(gs.getUserID(), [gr.u_user_criteria.toString()])
+} else
+	answer = new global.AttachmentSecurity().canRead(current);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;james.capaldo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2009-09-30 16:41:40&lt;/sys_created_on&gt;&lt;sys_id&gt;0bcf23740a6a38d400c7e02590038464&lt;/sys_id&gt;&lt;sys_mod_count&gt;40&lt;/sys_mod_count&gt;&lt;sys_name&gt;sys_attachment&lt;/sys_name&gt;&lt;sys_package display_value="Contextual Security Rules" source="com.glide.acl.service"&gt;9f59807921920110a866589604c20d6a&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_0bcf23740a6a38d400c7e02590038464&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-09-09 16:42:41&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+<remote_update_set display_value="User Criteria Attachment Security">0531350c2f1211107f79877cf699b649</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>grafdigital</sys_created_by>
+<sys_created_on>2022-09-27 20:30:05</sys_created_on>
+<sys_id>c531350c2f1211107f79877cf699b64b</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1832321d2ce0000001</sys_recorded_at>
+<sys_updated_by>grafdigital</sys_updated_by>
+<sys_updated_on>2022-09-27 20:30:05</sys_updated_on>
+<table>sys_attachment</table>
+<target_name>sys_attachment</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>fe80505e2b751110d93b6109f49597c9</update_guid>
+<update_guid_history>fe80505e2b751110d93b6109f49597c9:-1155815296,2a8010da33751110f66213158c4fa059:1199783574</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_properties_048865042f1211107f79877cf699b649</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties"><sys_properties action="INSERT_OR_UPDATE"><choices/><description>Specify which tables should be affected by the user criteria attachment security business rule.&#13;
+If enabled, attachment security records with the configured default criteria will be created for every new sys_attachment record.&#13;
+&#13;
+Format (Newline delimited):&#13;
+table_name|default_user_criteria_sys_id</description><ignore_cache>true</ignore_cache><is_private>false</is_private><name>attachment.ucsecurity.tablesanddefaults</name><read_roles/><suffix/><sys_class_name>sys_properties</sys_class_name><sys_created_by>grafdigital</sys_created_by><sys_created_on>2022-09-27 20:09:19</sys_created_on><sys_id>048865042f1211107f79877cf699b649</sys_id><sys_mod_count>0</sys_mod_count><sys_name>attachment.ucsecurity.tablesanddefaults</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_properties_048865042f1211107f79877cf699b649</sys_update_name><sys_updated_by>grafdigital</sys_updated_by><sys_updated_on>2022-09-27 20:09:19</sys_updated_on><type>string</type><value>incident|fb1166d64fff0200086eeed18110c7ab</value><write_roles/></sys_properties><sys_translated_text action="delete_multiple" query="documentkey=048865042f1211107f79877cf699b649"/></record_update>]]></payload>
+<remote_update_set display_value="User Criteria Attachment Security">0531350c2f1211107f79877cf699b649</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>grafdigital</sys_created_by>
+<sys_created_on>2022-09-27 20:30:05</sys_created_on>
+<sys_id>c931350c2f1211107f79877cf699b64a</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1838091745d0000001</sys_recorded_at>
+<sys_updated_by>grafdigital</sys_updated_by>
+<sys_updated_on>2022-09-27 20:30:05</sys_updated_on>
+<table/>
+<target_name>attachment.ucsecurity.tablesanddefaults</target_name>
+<type>System Property</type>
+<update_domain>global</update_domain>
+<update_guid>f87c2dc4db121110fbf87ce7d2803af5</update_guid>
+<update_guid_history>f87c2dc4db121110fbf87ce7d2803af5:-667081447</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_attachment_security_criteria_null</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_attachment_security_criteria"><active>true</active><array>false</array><array_denormalized>false</array_denormalized><attributes/><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label/><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element/><element_reference>false</element_reference><foreign_database/><function_definition/><function_field>false</function_field><internal_type display_value="Collection">collection</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>u_attachment_security_criteria</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><sizeclass/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>grafdigital</sys_created_by><sys_created_on>2022-09-09 16:32:20</sys_created_on><sys_id>b62e085a2f75111061395fd62799b63c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_attachment_security_criteria</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_dictionary_u_attachment_security_criteria_null</sys_update_name><sys_updated_by>grafdigital</sys_updated_by><sys_updated_on>2022-09-09 16:32:20</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+<remote_update_set display_value="User Criteria Attachment Security">0531350c2f1211107f79877cf699b649</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>grafdigital</sys_created_by>
+<sys_created_on>2022-09-27 20:30:05</sys_created_on>
+<sys_id>cd31350c2f1211107f79877cf699b649</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>183231856250000001</sys_recorded_at>
+<sys_updated_by>grafdigital</sys_updated_by>
+<sys_updated_on>2022-09-27 20:30:05</sys_updated_on>
+<table>u_attachment_security_criteria</table>
+<target_name>Attachment Security Criterias</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>0f2ec89ab2751110d5700fa4d32fbf50</update_guid>
+<update_guid_history>0f2ec89ab2751110d5700fa4d32fbf50:1018051535</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
