@@ -1,4 +1,4 @@
-# ServiceNow - Granular Control of Attachment Security with User Criteria
+# Granular Control of Attachment Security with User Criteria in ServiceNow
 
 ![Screenshot of Example Records](https://github.com/grafdigital/servicenow_attachment_ucsecurity/blob/master/screenshot.png?raw=true)
 
@@ -11,7 +11,7 @@ For every attachment (if that table has been enabled for user criteria security)
 ## Installation
 
 - Download update set XML
-- Load and commit spdate set on instance
+- Load and commit update set on instance
 - Create needed user criterias
 - Configure affected tables in property "attachment.ucsecurity.tablesanddefaults"
 
